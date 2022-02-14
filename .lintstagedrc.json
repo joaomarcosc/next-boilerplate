@@ -1,6 +1,6 @@
 {
   "src/**/*.{js,ts,jsx,tsx}": [
     "yarn lint",
-    "yarn test --bail"
+    "yarn test --findRelatedTests --bail"
   ]
 }
